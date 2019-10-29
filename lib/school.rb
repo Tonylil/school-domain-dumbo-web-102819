@@ -23,7 +23,8 @@ class School
     roster = {}
     
     @roster.map do |grade, names|
-      puts "Grade: #{names}"
+      #puts "Grade: #{names}"
+      names.sort
     end
   end
 end
