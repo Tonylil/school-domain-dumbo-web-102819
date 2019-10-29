@@ -24,7 +24,7 @@ class School
     
     @roster.map do |grade, names|
       #puts "Grade: #{names}"
-      {grade: names.sort}
+      {grade => names.sort}
     end
   end
 end
